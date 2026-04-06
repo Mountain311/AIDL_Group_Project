@@ -1,0 +1,7 @@
+Model,Resolution,Accuracy (%),Macro Precision,Macro Recall,Macro F1-Score,Inference Time (ms/img),Disk Space (MB),Total Parameters (Millions)
+baseline_9_layer_CNN,224x224,92.85,0.8896,0.9319,0.9053,4.5,202.9,53.19
+EfficientNet-B0,224x224,98.82,0.9848,0.9896,0.987,20.68,15.8,4.06
+EfficientNet-B1,240x240,99.16,0.9883,0.9924,0.99,29.05,25.5,6.56
+EfficientNet-B2,260x260,99.05,0.9887,0.9893,0.9889,23.96,30.0,7.76
+MobileNetV3-Large,224x224,98.51,0.9798,0.9831,0.98,15.69,16.4,4.25
+ResNet34,224x224,98.3,0.9794,0.983,0.9809,10.09,81.4,21.3
