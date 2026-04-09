@@ -55,9 +55,6 @@ This pipeline evaluates the mathematical trade-offs of 6 distinct vision archite
 5. **MobileNetV3-Large** (Hardware-Aware NAS edge-optimization | $224 \times 224$)
 6. **ResNet34** (Legacy Residual Paradigm | $224 \times 224$)
 
-![Architecture Radar Charts](05_radar_charts_fp32_vs_fp16.png)
-> *Figure 2: Holistic Trade-off Radar Charts. The FP16 (Green) perfectly overlaps the FP32 (Blue) on predictive metrics, while massively ballooning outward on computational efficiency.*
-
 ### Hardware Acceleration Profiles
 
 ![Latency Comparison](02_fp32_vs_fp16_latency.png)
